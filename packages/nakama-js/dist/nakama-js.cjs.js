@@ -1,3 +1,10 @@
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+const URLSearchParams = require('url-search-params')
+var WebSocket = require('ws')
+var XMLHttpRequest = require("xhr2")
+var self = {}
+
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
